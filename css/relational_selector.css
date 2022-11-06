@@ -2,5 +2,31 @@
 #products p{
 
     color: orange;
-    font-weight: bold;
+    
 }
+/* #products> p{
+
+    color: orange;
+    
+} */
+/* only makes the first p tag orange 
+it is only the child of the section*/
+
+
+/* #products + p{
+
+    color: orange;
+    
+} */
+/* this will only make orange the after immediate section
+of products */
+
+
+
+/* #products ~p{
+
+    color: orange;
+    
+} */
+
+/* to make all the p orange after orange section */
