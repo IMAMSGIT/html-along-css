@@ -17,7 +17,7 @@ p {
   /* a[href^="https"]
   to have https at first in the href 
   a[href$=".com"]
-  to have .com at end in the href  */
+  to have .com  at end in the href  */
   /* we can also combine more than one combination */
   {
     color: gold;

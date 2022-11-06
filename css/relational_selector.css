@@ -1,0 +1,6 @@
+/* to apply inside the section of products id and it's paragraph */
+#products p{
+
+    color: orange;
+    font-weight: bold;
+}
