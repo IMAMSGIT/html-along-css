@@ -6,3 +6,19 @@ body{
 p {
     color: red;
   }
+
+  /* #products{
+    
+  } */
+
+  /* to select the href element in indes_for_all _files */
+  a[href*="google"]
+  /* to have google present in the href */
+  /* a[href^="https"]
+  to have https at first in the href 
+  a[href$=".com"]
+  to have .com at end in the href  */
+  /* we can also combine more than one combination */
+  {
+    color: red;
+  }
