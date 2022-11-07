@@ -1,0 +1,23 @@
+body  {
+    margin: 10px;
+}
+/* .first {
+    font-size: 140%;
+    font-style: italic;
+}   */
+
+/* only applies to the first class */
+/* but we can the same result by pseudo class
+just typing article:first-child */
+article :first-child{
+    font-size: 140%;
+    font-style: italic;
+}
+
+/* this only applies first child of article */
+/* if we write :first-of-type instead :first-child
+it'll apply the first occurence different type of elements */
+/* if we write p:first-of-type,
+i applies only the first occurence of p tag */
+/* similarly, :last-of-type and last type 
+works same way  */
