@@ -1,0 +1,49 @@
+/* when more than one role target an element then we need to know this concept */
+
+
+h1 {
+color: dodgerblue;  
+}
+
+ .highlight {
+    color: deeppink;
+}
+
+#product {
+    color: green;
+}
+
+/* #product {
+    color: brown;
+} */
+
+/* above two targets same element 
+only the one works which is more specific */
+/* like id element named products
+if same id written twice , last one will be active  */
+
+
+/* we can avoid precedence writing !important keyword
+h1 {
+    color: dodgerblue !important;  
+    }  */
+
+/* *** But bad practice */
+
+
+/* There is good way */
+/* .highlight#product {
+    color: dodgerblue;
+} */
+ 
+/* or this better than previous */
+ h1#product {
+    color: red;
+ }
+
+
+
+ /* after adding feature class in article(html file) */
+ .feature #product {
+color: dodgerblue;
+ }
