@@ -1,0 +1,9 @@
+.box {
+    width: 200px;
+    height: 200px;
+    /* background-color: #043b13; */
+    /* background-color: hsl(133, 64%, 56%); */
+    background-color: hsl(38deg 83% 30%);
+}
+
+/* best is rgba() for its transparency availability  */
