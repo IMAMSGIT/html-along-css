@@ -1,0 +1,7 @@
+can learn
+- language and tools of web development
+- concepts ex. URL, HTTP, DOM 
+- how websites work
+- inspect network traffic using chrome dev tools
+- Basic HTML and CSS
+- validating web pages
