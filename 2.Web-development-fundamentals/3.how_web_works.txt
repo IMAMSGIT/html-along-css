@@ -1,0 +1,11 @@
+when we type something and hit enter
+-- browser is called the client
+-- computer that receives the request is server
+-- http is a language that clinet and server use to exchange message
+-- And not a programming language
+-- browser/client sent request
+-- server sent response
+-- after browser reading the html document from server
+-- it conctruct a DOM (a model that represents the objects or elements in our HTML document, 
+   elements like paragraph, image etc)
+--  
