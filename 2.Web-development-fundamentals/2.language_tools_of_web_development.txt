@@ -1,0 +1,8 @@
+Every website has backend and frontend
+for frontend developers use
+HTML, CSS and Javascript
+
+### Learning path
+-- HTML, CSS
+-- then, Javascript
+-- then React
