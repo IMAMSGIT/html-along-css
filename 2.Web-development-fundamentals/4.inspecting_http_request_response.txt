@@ -1,0 +1,2 @@
+chrome developer tools
+-> network tab( we can monitor our website)
