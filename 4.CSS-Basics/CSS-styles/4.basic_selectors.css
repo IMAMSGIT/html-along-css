@@ -1,0 +1,11 @@
+/* Here productors is a selector  */
+#products {
+  font-weight: bold;
+}
+
+/* Ex of attribute selector */
+/* To select all anchor element having target element  */
+a[href="https://google.com"]
+{
+  color: orange;
+}
