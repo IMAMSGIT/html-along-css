@@ -1,0 +1,7 @@
+1. various ways o provide CSS
+2. Normalizing CSS
+3. Selectors
+4. Color
+5. Gradients
+6. Borders
+7. Shadows
