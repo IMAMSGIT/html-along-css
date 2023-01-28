@@ -1,0 +1,11 @@
+body {
+  margin: 10px;
+}
+
+/* To select the paragaraph element inside products id  */
+#products ~ p {
+  color: orange;
+}
+/* To make only the first p orange, #products > p,it's direct child */
+/* To make the 2nd last p orange, #products + p, direct sibling */
+/* To make all the p orange after products section, #products ~ p, direct sibling */
