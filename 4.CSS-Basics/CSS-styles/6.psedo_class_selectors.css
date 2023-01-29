@@ -1,0 +1,39 @@
+body {
+  margin: 10px;
+}
+
+/* effects the first p element of article tag
+without assigning class to p or artivle element 
+called pseudo class selector */
+/* --------------- */
+/* article :first-child */
+
+/* when new occurence happen */
+/* article :first-of-type  */
+
+/* only in first occurence of p */
+
+/* *** Same goes for last-child */
+
+article p:first-of-type {
+  font-size: 140%;
+  font-style: italic;
+}
+
+ul li:nth-child(odd) {
+  color: blue;
+}
+
+/* To change the color of visited links  and all type of anchor 
+links */
+a:visited,
+a:link {
+  color: dodgerblue;
+}
+
+/* Hovering over the link also with keyboard,
+ but can be anything like div */
+a:hover,
+a:focus {
+  color: pink;
+}
