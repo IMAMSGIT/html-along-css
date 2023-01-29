@@ -1,0 +1,25 @@
+body {
+  margin: 10px;
+}
+
+p::first-letter {
+  font-size: 140%;
+}
+p::first-line {
+  font-weight: bold;
+}
+
+/* To make selection by mouse green in p element */
+p::selection {
+  color: green;
+}
+/* To make any selection by mouse green*/
+::selection {
+  color: green;
+}
+
+/* To insert something before p element */
+p::before {
+  content: "...";
+  display: block;
+}
