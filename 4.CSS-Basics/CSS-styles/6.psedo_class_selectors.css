@@ -32,7 +32,7 @@ a:link {
 }
 
 /* Hovering over the link also with keyboard,
- but can be anything like div */
+but can be anything like div */
 a:hover,
 a:focus {
   color: pink;
