@@ -1,0 +1,16 @@
+/* We can make the specifity higher 
+by checking it value Ex. 100,101 etc */
+h1 {
+  color: blueviolet;
+}
+.high {
+  color: aqua;
+}
+#pro {
+  color: green;
+}
+
+/* if same specificity, last one work */
+#pro {
+  color: brown;
+}
