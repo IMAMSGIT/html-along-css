@@ -1,0 +1,18 @@
+/* the strong element 
+automatically be bold 
+inheritance in action
+but if we don't want to
+strong {
+  color: initial;
+}
+*/
+p {
+  font-weight: bold;
+  color: dodgerblue;
+  border: solid 1px pink;
+}
+strong {
+  color: initial;
+  /*To force the inerit */
+  border: inherit;
+}
