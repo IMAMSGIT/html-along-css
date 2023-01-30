@@ -1,0 +1,7 @@
+.box {
+  width: 200px;
+  height: 200px;
+  /* background: linear-gradient(45deg, blue, yellow); */
+  background: radial-gradient(white, yellow);
+  /* Go to cssgradient.io to get desired gradient */
+}
