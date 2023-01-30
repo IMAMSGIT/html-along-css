@@ -1,0 +1,7 @@
+.box {
+  width: 600px;
+  height: 200px;
+  background: dodgerblue;
+  border: 10px solid black;
+  /* Go to css-tricks.com to get accurate shapes */
+}
